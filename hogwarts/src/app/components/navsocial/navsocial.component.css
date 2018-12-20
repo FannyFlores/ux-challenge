@@ -1,0 +1,37 @@
+
+.nav-item :hover {
+    background-color: rgb(238, 31, 31);
+    -webkit-text-fill-color: white;
+    height: 100%;
+}
+.fab, .fas, .far {
+    -webkit-text-fill-color:  rgb(114, 111, 111);
+}
+.form-control{
+    width: 80%;
+    flex: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 0.5px #b8aab39e;
+    background-color: transparent;
+}
+.form-group span{
+    position: absolute;
+    margin-left: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.form-group input{  
+    padding-left: 25px;
+    height: 20px;
+}
+.input-group-text {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 0.5px #b8aab39e;
+}
+  

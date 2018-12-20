@@ -1,0 +1,7 @@
+<nav [ngClass]="{'navbar-expand-lg':horizontal}" class="navbar navbar-light bg-light">
+    <ul class="navbar-nav" *ngFor="let nav of navstructure">
+      <li class="nav-item nav-item__upper">
+        <a class="nav-link" href="#">{{nav}}</a>
+      </li>
+    </ul>
+</nav>
